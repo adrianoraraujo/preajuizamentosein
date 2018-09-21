@@ -24,7 +24,7 @@ $data1 = date('Y-m-d');
  
 
 if (!empty($_POST) AND (empty($_POST['estado']) OR empty($_POST['municipio'])OR empty($_POST['valor'])OR empty($_POST['resp1'])OR empty($_POST['resp2'])OR empty($_POST['resp3'])OR empty($_POST['data']))) {
-header("Location: fluxajuizamento.php"); exit;}
+header("Location: index.php"); exit;}
 $resposta1=1;
  $resposta2=2;
  $resposta3=3;

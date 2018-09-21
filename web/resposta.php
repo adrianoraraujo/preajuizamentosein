@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $resposta=$_GET["resposta"];
 $uf=$_GET["estado"];
 $pesqbens=$_GET["resp1"];
@@ -244,7 +244,7 @@ VERIFICAÇÃO DE PROTESTO: ESTADO: '.$uf.', PESQUISA DE BENS: '.$pesqbens.', DIA
     </div>
 </div>
 
-<form action="fluxajuizamento.php" method="POST">
+<form action="index.php" method="POST">
 <input type="submit" value="Voltar"> 
 </form>
 <!--
