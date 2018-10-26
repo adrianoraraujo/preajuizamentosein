@@ -82,7 +82,7 @@ date_default_timezone_set('UTC');
 </form>
 
 <form  action="validafluxo.php" method="POST">  	
-<div>Data</div>
+<div>Data da Prescrição</div>
 	<div><label for="data"></label><input type="date" id="data" name="data" value="<?=$day?>"/>
 </div><p></p><p></p>	
 
@@ -114,7 +114,7 @@ date_default_timezone_set('UTC');
 <div><input type="radio" name="resp2" id="resp2" value="IBAMA"/>IBAMA</div>
 <div><input type="radio" name="resp2" id="resp2" value="INMETRO"/>INMETRO</div>
 <div><input type="radio" name="resp2" id="resp2" />OUTRAS</div>
-<div><label for="outros"></label><input type="text" id="resp2" />
+<div><label for="outros"></label><input type="text" id="outros" name="outros" />
 </div>
 <div>Já foi protestado?</div>
 	<p></p><p></p>

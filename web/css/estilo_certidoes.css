@@ -1,0 +1,70 @@
+
+/*-- CABEÇALHO --*/
+
+#cabecalho_agu {
+	text-align: center;
+	font-size: 16px;
+	font-style: black;
+}
+
+#cabecalho_cetidao {
+	font-size: 14px;
+	font-style: red;
+}
+
+#barras {
+	column-width: 80px;
+}
+
+#resposta {
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+@media print {
+	#resposta {
+		display: none;
+	}
+}
+
+
+/*-- GERAL --*/
+body {
+
+}
+
+p {
+	padding-left: 50px;
+}
+.atencao {
+	color: red;
+	font-weight: bold;
+}
+
+.clear{
+	clear: both;
+}
+
+/*-- FORMATAÇÃO DA TABELA --*/
+
+table {
+	padding: 10px;
+}
+
+.td_titulo {
+	padding: 5px 10px;
+	text-align: left;
+	background-color:rgba(205,205,205);
+	border: 1px solid black;
+}
+
+.td_linha {
+	padding: 10px 15px;
+}
+
+
+/*-- FORMATAÇÃO DA --*/
+
+/*<table id="" style = "background-color:rgba(205,205,205)" border="1px" cellspacing="0" cellpadding="3" width="800" height="30"> 
+<div align="center" ><td bgcolor ="#CDCDCD"><strong>Interessados Pesquisados&nbsp;&nbsp;&nbsp;&nbsp;</strong></td></div></table><br><p></p>*/
