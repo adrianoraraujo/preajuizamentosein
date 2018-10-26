@@ -411,7 +411,7 @@ $clasvalor="abaixo de R$ 5.000,00";
 	</section>
 	<section class="clear">
 		<div><h1 id="cabecalho_agu">
-			<img src="img\brasao_de_armas.png" alt="Brasão das Armas" title="Brasão das Armas" /><br>
+			<img src="brasao_de_armas.png" alt="Brasão das Armas" title="Brasão das Armas" /><br>
 			<strong>
 			<div>ADVOCACIA-GERAL DA UNIÃO</div>
 			<div>PROCURADORIA-GERAL FEDERAL</div>
