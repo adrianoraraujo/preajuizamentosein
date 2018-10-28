@@ -441,7 +441,7 @@ $clasvalor="abaixo de R$ 5.000,00";
 			<tr><th class="td_titulo" colspan="2">3. Pesquisa de Bens:</th></tr>
 			
 					<tr><td class="td_linha"><strong>SINESP-INFOSEG.</strong></td></tr>
-					<tr><td class="td_linha"><?echo $infoseg;?> - Sistema Nacional de Informações de Segurança Pública (SINESP-INFOSEG). Segue(m) em anexo pesquisa.<?echo $nome;?></td></tr>
+					<tr><td class="td_linha"><?echo $infoseg;?> - Sistema Nacional de Informações de Segurança Pública (SINESP-INFOSEG). Segue(m) em anexo pesquisa.</td></tr>
 					<tr><td class="td_linha" colspan="2"><strong>Cartórios de Registro de Imóveis - CRI's:</strong></td></tr>
 					<tr><td class="td_linha" ><?echo $cart;?></td></tr>
 					<tr><td></td><td class="td_linha"></td></tr>
@@ -469,11 +469,8 @@ $date_day=strftime(', %d de %B de %Y', strtotime('today'));
 		</div>
 		<div style="text-align: center;">
 			<br>
-			<div style="text-transform: uppercase;"><?echo $servidor;?></div>
-			<div>SERVIDOR</div>
-			<br>
-			<div>JONAS GIRARDI RABELLO</div>
-			<div>PROCURADOR FEDERAL</div>
+			<div style="text-transform: uppercase;"><strong><?echo $servidor;?></div>
+			<div>SERVIDOR</strong></div>
 			<br>
 		</div>
 		<hr>
