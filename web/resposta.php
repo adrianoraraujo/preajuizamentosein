@@ -458,7 +458,7 @@ $clasvalor="abaixo de R$ 5.000,00";
 		<div>
 			<br>
 			<?
-			setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
+			setlocale(LC_ALL, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
 date_default_timezone_set('UTC');
 strftime('%A, %d de %B de %Y', strtotime('today'));
 date_default_timezone_set('UTC');
