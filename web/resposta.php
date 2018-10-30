@@ -17,7 +17,7 @@ $seq=$_POST["seq"];
 $outros=$_POST["outros"];
 $servidor=$_POST["servidor"];
 $filial=$_POST["filial"];
-
+$textoad=" ";
 if($autarquia=="on")
 	$autarquia=$outros;
 $resposta1='Prescrição em até 2 meses
@@ -421,20 +421,25 @@ $clasvalor="abaixo de R$ 5.000,00";
 			</strong>
 		</h1></div>
 	</header>
+<?
+if($pesq=="Empresário Individual Não Eirelli"){
+$filiais = "A equipe NIEC– ENAC realizou pesquisas cadastrais em nome do interessado constatando se tratar de empresário individual não EIRELLI, recomendando-se que todas as medidas constritivas e pesquisas de bens sejam realizadas em face de todos os CPF/CNPJ(s) relacionados, se pertinente e cabível, a critério do procurador oficiante no feito.";	
+}
 
+?>
 		<div><h2 id="cabecalho_cetidao">
 			<div style="text-align: center;">CERTIDÃO DE PRÉ-AJUIZAMENTO</div><br>
 			<div  id="cabecalho_cetidao" >NUP: <? echo $nup;?></div>
 			<div  id="cabecalho_cetidao" style="text-transform: uppercase;">INTERESSADOS:<? echo $nome;?></div>
 			<div  id="cabecalho_cetidao">ASSUNTOS: COBRANÇA E RECUPERAÇÃO DE CRÉDITOS<br></div></strong></h2>
 		</div>
-			<p class="clear">Certiﬁco que a equipe SEIN – ENAC realizou pesquisas cadastrais, de dívidas e patrimoniais abaixo apontadas, obtendo os seguintes resultados nesta data:</p>
+			<div align="justify"><p class="clear">Certiﬁco que a equipe SEIN – ENAC realizou pesquisas cadastrais, de dívidas e patrimoniais abaixo apontadas, obtendo os seguintes resultados nesta data:</p></div>
 	</section>
 	<section>
 		<table>
 			<tr><th class="td_titulo" colspan="2">1. Interessados Pesquisados:</th></tr>
 				<tr><td class="td_linha" colspan="2" style="text-transform: uppercase;"><? echo $pesq;?>: <? echo $nome;?><? echo " ";?><? echo $cpfoucnpj;?>:<? echo $snome;?> - <? echo $filial;?></td></tr>
-				<tr><td class="td_linha" colspan="2" ><? echo $filiais;?>.</td></tr>
+				<tr><td class="td_linha" colspan="2" ><div align="justify"><? echo $filiais;?> </div></td></tr><!-- <br/><br/><?//echo $filiais;?> -->
 			<tr><th class="td_titulo" colspan="2">2. Autarquia Credora:</th></tr>
 				<tr><td class="td_linha" colspan="2"><? echo $autarquia;?>.
 				</td></tr>
@@ -450,7 +455,7 @@ $clasvalor="abaixo de R$ 5.000,00";
 				<tr><td class="td_linha" colspan="2"><? echo $Y1;?></td></tr>
 				<tr><td class="td_linha" colspan="2">Valor da CDA <? echo $clasvalor;?></td></tr>
 			<tr><th class="td_titulo" colspan="2">5. Conclusão:</th></tr>
-				<tr><td class="td_linha" colspan="2"><? echo $modelo;?></td></tr>
+				<tr><td class="td_linha" colspan="2"><div align="justify"><? echo $modelo;?></div></td></tr>
 		</table>
 	</section>
  
