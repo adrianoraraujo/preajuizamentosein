@@ -157,14 +157,14 @@ ao Setor de Ajuizamento da ENAC para ajuizamento da Execução Fiscal.';
 Abrir Tarefa, conforme informações abaixo:
  Conforme passo-a-passo em: Rotinas Básicas Gerais: 10) Abrir Tarefa
 TAREFA:
- ESPÉCIE: EXPEDIR PROCESSO/DOCUMENTO AO DESTINATÁRIO INDICADO (ADMINISTRATIVO)
+ ESPÉCIE: ADOTAR PROVIDÊNCIAS ADMINISTRATIVAS (ADMINISTRATIVO)
  URGENTE: SIM
 RESPONSÁVEL:
  DISTRIBUIÇÃO: AUTOMÁTICA
- SETOR: SETOR DE CONCILIAÇÃO PRÉVIA (ENAC)
+ SETOR: SETOR DE CONTROLE DE PAGAMENTO (ENAC)
 PRAZO:
  PRAZO: 5 DIAS
- OBSERVAÇÃO:
+ OBSERVAÇÃO:PESQUISA NEGATIVA PRÉ AJUIZAMENTO, VERIFICAR VALOR CONSOLIDADO
 ESTADO: '.$uf.', PESQUISA DE BENS: '.$pesqbens.', DATA DA PRESCRIÇÃO: '.$data.'
  MODELO DE CERTIDÃO: HIPÓTESE 4';
  $certidao8='Certifico que a equipe SEIN – ENAC realizou as pesquisas patrimoniais acima especificadas
@@ -178,14 +178,14 @@ demais providências daí decorrentes.';
 Abrir Tarefa, conforme informações abaixo:
  Conforme passo-a-passo em: Rotinas Básicas Gerais: 10) Abrir Tarefa
 TAREFA:
- ESPÉCIE: EXPEDIR PROCESSO/DOCUMENTO AO DESTINATÁRIO INDICADO (ADMINISTRATIVO)
+ ESPÉCIE: ADOTAR PROVIDÊNCIAS ADMINISTRATIVAS (ADMINISTRATIVO)
  URGENTE: NÃO
 RESPONSÁVEL:
  DISTRIBUIÇÃO: AUTOMÁTICA
- SETOR: SETOR DE CONCILIAÇÃO PRÉVIA (ENAC)
+ SETOR: SETOR DE CONTROLE DE PAGAMENTO (ENAC)
 PRAZO:
  PRAZO: 30 DIAS
- OBSERVAÇÃO:
+ OBSERVAÇÃO:PESQUISA NEGATIVA PRÉ AJUIZAMENTO, VERIFICAR VALOR CONSOLIDADO
 ESTADO: '.$uf.', PESQUISA DE BENS: '.$pesqbens.', DATA DA PRESCRIÇÃO: '.$data.'
  MODELO DE CERTIDÃO: HIPÓTESE 4';
  $certidao9='Certifico que a equipe SEIN – ENAC realizou as pesquisas patrimoniais acima especificadas
